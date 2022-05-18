@@ -79,6 +79,12 @@ Font familie sat ind
 
 .menu {
   height: 100%;
-  display: flex;
+  float: right;
+  padding: 20px;
 
+}
+
+.menuIkon {
+  width: 64px;
+  height: 67px;
 }
