@@ -30,8 +30,29 @@ h2 {
     width: 60vw;
 }
 
+  
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  #filler {
+      padding: 100px;
+  }
+}
 
-// alt ovenover er bare forslag til hvad vi skal kode //
+@media screen and (max-width: 600px){
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #filler {
+      padding: 150px;
+  }
+}
+
+
+/* alt ovenover er bare forslag til hvad vi skal kode */
 
 /*
 Knapper
