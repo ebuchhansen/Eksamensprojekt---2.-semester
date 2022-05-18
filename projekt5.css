@@ -30,14 +30,11 @@ h2 {
     width: 60vw;
 }
 
-  
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
-  }
-  #filler {
-      padding: 100px;
   }
 }
 
@@ -45,9 +42,6 @@ h2 {
   .column {
     flex: 100%;
     max-width: 100%;
-  }
-  #filler {
-      padding: 150px;
   }
 }
 
