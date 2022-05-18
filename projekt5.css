@@ -73,11 +73,12 @@ menu --> Emilie
 søgefelt --> Emilie
 margin iforhold til tekst og bokse
 Afrundinger på elementer osv..
+Font familie sat ind
 */
 
 
 .menu {
   height: 100%;
   display: flex;
-  
+
 }
