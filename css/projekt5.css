@@ -78,12 +78,18 @@ Afrundinger på elementer osv..
 
 .menu {
   height: 100%;
+  width: 100px;
   float: right;
-  padding: 20px;
-
+  background-color: #111;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
 .menuIkon {
-  width: 64px;
-  height: 67px;
+  padding: 6px 6px 6px 32px;
+  background-color: #FFF;
+  color: #818181;
+  display: block;
 }
