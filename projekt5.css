@@ -65,3 +65,10 @@ søgefelt --> Emilie
 margin iforhold til tekst og bokse
 Afrundinger på elementer osv..
 */
+
+
+.menu {
+  height: 100%;
+  display: flex;
+  flex;
+}
