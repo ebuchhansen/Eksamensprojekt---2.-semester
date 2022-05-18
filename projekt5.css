@@ -79,24 +79,12 @@ Font familie sat ind
 
 .menu {
   height: 100%;
-  width: 100px;
   float: right;
-  background-color: #111;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  padding: 20px;
+
 }
 
 .menuIkon {
-<<<<<<< HEAD:projekt5.css
   width: 64px;
   height: 67px;
 }
-=======
-  padding: 6px 6px 6px 32px;
-  background-color: #FFF;
-  color: #818181;
-  display: block;
-}
->>>>>>> 57110f260dbeaaad7b1a47d18a8198713734e3f8:css/projekt5.css
