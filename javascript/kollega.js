@@ -11,7 +11,6 @@ let kollegaListe = [
 
 // loop the outer array
 for (let i = 0; i < kollegaListe.length; i++) {
-    document.write("<br>");
     // loop the inner array
     for (let j = 0; j < kollegaListe[i].length; j++) {
         document.getElementById("kollega-liste").innerHTML += kollegaListe[i][j];
