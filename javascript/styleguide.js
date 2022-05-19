@@ -17,6 +17,5 @@ window.onclick = function(event) {
 
  let text = ["Min side", "Kollegaer"]
  function changeText (element, text) {
-   element.text = color;
+   element.text = text;
  }
- 
