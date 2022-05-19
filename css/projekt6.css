@@ -70,6 +70,14 @@ h2 {
   margin: 10px;
 }
 
+.pilleknaptredelt {
+  background: linear-gradient(to right, #dcbcfd, #dcbcfd 33.33%, #36244d 33.33%, #36244d 66.66%, #dcbcfd 66.66%);
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+}
+
 .tekstfelt {
   background-color: #cbebdb;
   width: 650px;
