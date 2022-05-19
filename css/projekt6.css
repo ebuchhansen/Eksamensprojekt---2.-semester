@@ -121,3 +121,25 @@ h2 {
     padding: 7px;
     margin: 10px;
 }
+
+.column1 {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color:#36244D;
+  }
+
+  .column2 {
+    float: left;
+    width: 60%;
+    height: 100vh;
+    background-color:#4E3B66;
+  }
+
+  .column3 {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color:#DCBCFD;
+  }
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
