@@ -1,0 +1,20 @@
+#kollega-liste > div{
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cbebdb;
+    width: 650px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+}
+
+#kollega-liste > div > p{
+    display: flex;
+    margin: 0 2rem 0 2rem;
+}
+
+.img > img{
+    height: 2rem;
+}
