@@ -160,6 +160,9 @@ h3 {
 }
 
 .menubox1 {
+  position: relative;
+  display: inline-block;
+
   padding: 20px;
   padding-bottom: 6px;
   padding-top: 22px;
@@ -168,13 +171,56 @@ h3 {
   margin-right: 5px;
 }
 
+.menubox1 .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  top: 25px;
+  right: 115%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.menubox1:hover .tooltiptext1{
+  visibility: visible;
+  opacity: 1;
+}
+
 .menubox2 {
+  position: relative;
+  display: inline-block;
+
   padding: 20px;
   padding-bottom: 6px;
   padding-top: 22px;
 
   border-radius: 10px;
   margin-right: 5px;
+}
+
+.menubox2 .tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  top: 25px;
+  right: 115%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.menubox2:hover .tooltiptext2{
+  visibility: visible;
+  opacity: 1;
 }
 
 .menubox1:hover {
