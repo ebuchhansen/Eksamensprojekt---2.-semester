@@ -32,15 +32,27 @@ Font familie sat ind
 
 .header {
   grid-area: h;
+  background-color: orange;
 }
 
+.aside {
+  grid-area: a;
+  background-color: purple;
+}
 
 .main {
   grid-area: ma;
+  background-color: green;
+}
+
+.menu {
+  grid-area: me;
+  background-color: yellow;
 }
 
 .footer {
   grid-area: f;
+  background-color: red;
 }
 
 .container {
@@ -48,7 +60,7 @@ Font familie sat ind
   grid-template: 5rem auto 5rem / repeat(3, 1fr);
   grid-template-areas:
           "h h h"
-          "ma ma ma"
+          "a ma me"
           "f f f";
 }
 
@@ -147,21 +159,3 @@ h2 {
     padding: 7px;
     margin: 10px;
 }
-
-.column1 {
-    
-  }
-
-  .column2 {
-    float: left;
-    width: 60%;
-    height: 100vh;
-    background-color:#4E3B66;
-  }
-
-  .column3 {
-    float: left;
-    width: 20%;
-    height: 100vh;
-    background-color:#DCBCFD;
-  }
