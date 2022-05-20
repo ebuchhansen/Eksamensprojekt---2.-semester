@@ -137,6 +137,7 @@ h2 {
   text-align: center;
 }
 
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
