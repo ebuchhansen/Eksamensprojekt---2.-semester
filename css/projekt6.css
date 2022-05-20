@@ -44,7 +44,6 @@ Font familie sat ind
 
 .main {
   grid-area: ma;
-  background-color: green;
 }
 
 .menu-grid {
@@ -191,7 +190,6 @@ h3 {
   visibility: hidden;
   width: 120px;
   background-color: lightblue;
-  color: black;
   text-align: center;
   border-radius: 10px;
   padding: 5px 0;
@@ -223,7 +221,6 @@ h3 {
   visibility: hidden;
   width: 120px;
   background-color: lightblue;
-  color: black;
   text-align: center;
   border-radius: 10px;
   padding: 5px 0;
