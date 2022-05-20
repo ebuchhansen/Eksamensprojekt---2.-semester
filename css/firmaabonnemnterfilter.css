@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-left: 25px;
+}
+  
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.filter-icon {
+    height: 3rem;
+    margin-left: 625px;
+    margin-right: 10px;
+}
+  
