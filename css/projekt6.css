@@ -133,12 +133,12 @@ h3 {
   margin: 10px;
 }
 
-.indstillinger > img {
+.indstillinger-ikon > img {
   height: 2.5rem;
   margin-right: 0.5rem;
 }
 
-.indstillinger {
+.indstillinger-ikon {
   margin-left: auto;
 }
 
@@ -272,17 +272,19 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
+  .container {
+    display: grid;
+    grid-template-rows: 3rem auto 3rem;
+    grid-template-columns: 0.5fr 4fr 0.5fr;
+    grid-template-areas:
+            "h h h"
+            "a ma f"
+            "me me me";
   }
 }
 
 @media screen and (max-width: 600px){
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+  
 }
 
 .search {
