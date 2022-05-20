@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #cbebdb;
-    width: 650px;
+    min-width: 500px;
     border-radius: 10px;
     border: none;
     padding: 15px 25px 15px 25px;
@@ -10,7 +10,16 @@
     justify-content: space-between;
 }
 
-#kollega-liste > div > p{
+#kollega-liste > div > p {
     display: flex;
     margin: 0 2rem 0 2rem;
 }
+
+@media screen and (max-width: 800px) {
+   
+  }
+  
+  @media screen and (max-width: 600px){
+    
+  }
+  
