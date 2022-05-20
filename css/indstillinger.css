@@ -3,6 +3,12 @@
   flex-wrap: wrap;
 }
 
+h2{
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+
 .pilleknap, .blyant, .tilbagepil {
   margin-left: auto;
 }
