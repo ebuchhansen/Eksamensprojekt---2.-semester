@@ -137,6 +137,40 @@ h2 {
   text-align: center;
 }
 
+.menu {
+  width: 70px;
+  height: 76px;
+  margin-top: 40vh;
+  float: right;
+}
+
+.menubox1 {
+  padding: 20px;
+  padding-bottom: 6px;
+  padding-top: 22px;
+
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.menubox2 {
+  padding: 20px;
+  padding-bottom: 6px;
+  padding-top: 22px;
+
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.menubox1:hover {
+  background-color: #4E3B66;
+  cursor: pointer;
+}
+
+.menubox2:hover {
+  background-color: #4E3B66;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 800px) {
   .column {
