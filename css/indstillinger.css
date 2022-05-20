@@ -1,1 +1,22 @@
+.liste{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+h2{
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+
+.pilleknap, .blyant, .tilbagepil {
+  margin-left: auto;
+}
+
+hr{
+  color: #36244D;
+}
+
+#sletbruger{
+  float:
+}
