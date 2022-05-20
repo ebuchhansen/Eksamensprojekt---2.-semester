@@ -243,6 +243,28 @@ h3 {
   cursor: pointer;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-left: 25px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+.filter-icon {
+  height: 3rem;
+  margin-left: 625px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
