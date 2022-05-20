@@ -7,3 +7,56 @@
   padding: 15px 25px 15px 25px;
   margin: 10px;
 }
+
+.space {
+  height: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hashtag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hashtagknap {
+  background-color: #dcbcfd;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  margin: 10px;
+}
+
+.plus-icon {
+  margin-left: 10px;
+}
+
+.pilleknap {
+  display: flex;
+  flex-direction: row;
+}
+
+.pilleknaptredelt {
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  margin-right: 10px;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+.middle {
+  margin-left: 10px;
+  margin-right: 30px;
+}
