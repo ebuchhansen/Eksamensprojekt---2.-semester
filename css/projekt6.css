@@ -57,7 +57,7 @@ Font familie sat ind
 
 .container {
   display: grid;
-  grid-template: 5rem auto 5rem / repeat(3, 1fr);
+  grid-template: 6rem auto 6rem / repeat(3, 1fr);
   grid-template-areas:
           "h h h"
           "a ma me"
