@@ -1,6 +1,8 @@
 .liste{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 h2{
@@ -9,11 +11,6 @@ h2{
 }
 
 
-.pilleknap, .blyant, .tilbagepil {
+.pilleknap, .blyant, .frempil {
   margin-left: auto;
-}
-
-.liste{
-  margin-top: 0.8rem;
-  margin-bottom: 0.8rem;
 }
