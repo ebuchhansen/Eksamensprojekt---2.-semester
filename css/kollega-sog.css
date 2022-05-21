@@ -1,7 +1,7 @@
 #kollega-liste > div{
     display: flex;
     background-color: #cbebdb;
-    min-width: 500px;
+    max-width: 100%;
     border-radius: 10px;
     border: none;
     padding: 15px 25px 15px 25px;
@@ -16,14 +16,14 @@
 
 @media screen and (max-width: 800px) {
     #kollega-liste > div{
-        width: 50%;
+        max-width: 100%;
         padding: 10px 5px 10px 5px;
+        flex-direction: column;
     }
 
     #kollega-liste > div > p {
-        flex-direction: column;
         justify-content: center;
-        margin: 0 1rem 0 1rem;
+        margin: 0 2rem 0 2rem;
     }
   }
   
