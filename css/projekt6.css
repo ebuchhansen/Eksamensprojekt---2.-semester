@@ -29,7 +29,9 @@ Font familie sat ind
 }*/
 
 @import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
+/* Grid */
 .header {
   grid-area: h;
   background-color: orange;
@@ -65,6 +67,7 @@ Font familie sat ind
           "f f f";
 }
 
+/* body og logo styling*/
 body {
     background-color: #fcfaf0;
     color: #36244d;
@@ -87,18 +90,25 @@ body {
   padding: 0;
 }
 
+/* font */
+p {
+  line-height: 1.2rem;
+  font: 400 0.9rem "Work Sans", sans-serif;
+}
+
 h1 {
-  font-size: 2.5rem;
+  font: 600 2.5rem "Work Sans", sans-serif;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font: 600 1.25rem "Work Sans", sans-serif;
 }
 
 h3 {
-  font-size: 2rem;
+  font: 650 2rem "Work Sans", sans-serif;
 }
 
+/* ikoner */
 .basisknap {
   background-color: #dcbcfd;
   border-radius: 10px;
@@ -166,6 +176,8 @@ h3 {
   border-radius: 0.5rem;
   text-align: center;
 }
+
+/* menu */
 
 .menu {
   width: 70px;
@@ -277,6 +289,60 @@ h3 {
     margin: 10px;
 }
 
+/*modal styling*/
+
+.modal {
+  position: fixed;
+  border-radius: 10px;
+  background-color: #FCFAF0;
+  width: auto;
+  max-width: 80%;
+  z-index: 10;
+  transform: scale(0);
+  transition: 200ms ease-in-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.close-button {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  float: right;
+  margin: 0.3rem 0.7rem 0.5rem 0;
+}
+
+.modal-body {
+  padding: 20px 0 5px 25px;
+  display: flex;
+}
+
+.modal-tekst {
+  padding: 0.8rem 1.2rem 1.5rem 1rem;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4e3b66c2;
+  pointer-events: none;
+  transition: 200ms ease-in-out;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 @media screen and (max-width: 800px) {
   .container {
     display: grid;
@@ -287,9 +353,34 @@ h3 {
             "a ma f"
             "me me me";
   }
+
+  .modal {
+    max-width: 65%;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+  .main {
+    background-color: yellow;
+  }
+
 }
 
 @media screen and (max-width: 600px){
+
+  .modal-body {
+    padding: 20px 10px 5px 25px;
+    display: flex;
+  }
+
+  .modal-tekst {
+    text-align: center;
+    line-height: 1.3rem;
+  }
+
+  .main {
+    background-color: green;
+  }
   
 }
 
