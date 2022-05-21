@@ -13,6 +13,7 @@ h2{
   margin-left: auto;
 }
 
-hr{
-  color: #36244D;
+.liste{
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
