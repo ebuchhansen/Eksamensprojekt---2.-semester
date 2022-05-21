@@ -67,6 +67,14 @@ Font familie sat ind
           "f f f";
 }
 
+hr{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
 /* body og logo styling*/
 body {
     background-color: #fcfaf0;
@@ -367,7 +375,7 @@ h3 {
     top: 50%;
     left: 53%;
   }
-  
+
   .main {
     background-color: yellow;
   }
@@ -389,6 +397,5 @@ h3 {
   .main {
     background-color: green;
   }
-  
-}
 
+}
