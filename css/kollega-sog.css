@@ -1,6 +1,5 @@
 #kollega-liste > div{
     display: flex;
-    flex-wrap: wrap;
     background-color: #cbebdb;
     min-width: 500px;
     border-radius: 10px;
@@ -22,11 +21,10 @@
     }
 
     #kollega-liste > div > p {
-        display: flex;
-        justify-content: none;
+        flex-direction: column;
+        justify-content: center;
         margin: 0 1rem 0 1rem;
     }
-   
   }
   
   @media screen and (max-width: 600px){
