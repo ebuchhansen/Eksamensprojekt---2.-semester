@@ -306,14 +306,13 @@ h3 {
 .modal {
   position: fixed;
   border-radius: 10px;
-  background-color: red;
+  background-color: #FCFAF0;
   max-width: 50%;
   z-index: 10;
   transition: 200ms ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  /*#FCFAF0*/
 }
 
 .modal.active {
@@ -425,13 +424,14 @@ h3 {
   .modal-knapper {
     display: flex;
     flex-direction: column;
+    margin-right: 1rem;
   }
 
 }
 
 @media screen and (max-width: 600px){
   .modal-body {
-    padding: 20px 10px 5px 25px;
+    padding: 20px 0 5px 25px;
     display: flex;
   }
 
