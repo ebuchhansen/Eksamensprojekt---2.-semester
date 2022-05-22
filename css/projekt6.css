@@ -421,6 +421,31 @@ h3 {
   pointer-events: all;
 }
 
+.sogogplus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem;
+}
+
+.billedeogtekst {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.25rem;
+}
+
+.teksten {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.space {
+  height: 3.125rem;
+}
+
 @media screen and (max-width: 800px) {
   .container {
     display: grid;
