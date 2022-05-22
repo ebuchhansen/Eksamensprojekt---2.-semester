@@ -100,12 +100,10 @@ let number = 1
 
 // indeholder: kontrolstruktur (if-else), type number
 if (number > 0){
-    console.log("ifWorking")
-
-    //lave om til boolean
+    document.getElementsById("center").style.textAlign = "center";
 }
 else {
-    console.log("elseWorking")
+    
 }
 
 
