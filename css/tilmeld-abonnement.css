@@ -18,10 +18,30 @@
   margin: 0px 0px 20px 0px;
 }
 
-.bacisknap {
+.hashtag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+
+#hashtagknapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#hashtagknapper > div {
   background-color: #dcbcfd;
   border-radius: 10px;
   border: none;
   padding: 5px 15px 5px 15px;
   margin: 10px;
+}
+
+.navn-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
