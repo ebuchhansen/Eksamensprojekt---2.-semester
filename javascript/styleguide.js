@@ -15,17 +15,10 @@ window.onclick = function(event) {
   }
 }
 
- let text = ["Min side", "Kollegaer"]
- function changeText (element, text) {
-   element.text = text;
- }
 
- let farveArray = [
-   ["<div>"+"#FCFAF0"+"</div>"],
-   ["<div>"+"#DCBCFD"+"</div>"],
-   ["<div>"+"#36244D"+"</div>"],
-   ["<div>"+"#4E3B66"+"</div>"],
-   ["<div>"+"#CBEBDB"+"</div>"],
-   ["<div>"+"#F2D7CA"+"</div>"],
- ];
- 
+ let farveArray = ["#FCFAF0", "#DCBCFD", "#36244D", "#4E3B66", "#CBEBDB", "#F2D7CA"];
+ function changeName() {
+   let farverWow = document.getElementById('farvearray');
+   for (i = 0; i < farveArray.length; i++)
+   farverWow.innerHTML += farveArray[i];
+ }
