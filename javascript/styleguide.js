@@ -19,3 +19,13 @@ window.onclick = function(event) {
  function changeText (element, text) {
    element.text = text;
  }
+
+ let farveArray = [
+   ["<div>"+"#FCFAF0"+"</div>"],
+   ["<div>"+"#DCBCFD"+"</div>"],
+   ["<div>"+"#36244D"+"</div>"],
+   ["<div>"+"#4E3B66"+"</div>"],
+   ["<div>"+"#CBEBDB"+"</div>"],
+   ["<div>"+"#F2D7CA"+"</div>"],
+ ];
+ 
