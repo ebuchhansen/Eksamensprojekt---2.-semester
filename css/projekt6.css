@@ -82,6 +82,8 @@ body {
     color: #36244d;
     font-family: "Work Sans";
     font-size: 0.75rem;
+    max-width: 95rem;
+    margin: auto;
 }
 
 .logo {
@@ -214,7 +216,7 @@ h3 {
 .menu {
   width: 70px;
   height: 76px;
-  margin-top: 23vh;
+  margin-top: 12.5rem;
   float: right;
 }
 
