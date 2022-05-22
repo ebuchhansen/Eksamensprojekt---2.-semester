@@ -308,6 +308,10 @@ h3 {
   padding-left: 1.563rem;
 }
 
+.column > img {
+  height: 4.688rem;
+}
+
 .row:after {
   display: table;
   clear: both;
@@ -443,6 +447,7 @@ h3 {
 
 .billedeogtekst > img {
   border-radius: 50%;
+  height: 6.25rem;
 }
 
 .teksten {
