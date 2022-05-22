@@ -6,7 +6,7 @@
 
 .modal {
     position: fixed;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: #FCFAF0;
     width: auto;
     max-width: 80%;
@@ -28,16 +28,16 @@
 }
 
 .modal-body {
-    padding: 20px 0 5px 25px;
+    padding: 1.25rem 0 0.313rem 1.563rem;
     display: flex;
-       
+
 }
 
 .ja-button {
     border: none;
     background: #DCBCFD;
-    border-radius: 20px;
-    padding: 5px 25px 5px 25px;
+    border-radius: 1.25rem;
+    padding: 0.313rem 1.563rem 0.313rem 1.563rem;
     font-size: 0.8rem;
     margin-left: 15%;
 }
@@ -45,8 +45,8 @@
 .nej-button {
     border: none;
     background: #DCBCFD;
-    border-radius: 20px;
-    padding: 5px 25px 5px 25px;
+    border-radius: 1.25rem;
+    padding: 0.313rem 1.563rem 0.313rem 1.563rem;
     font-size: 0.8rem;
     float: right;
     margin-right: 15%;
