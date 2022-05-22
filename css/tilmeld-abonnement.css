@@ -39,14 +39,7 @@
   margin: 10px;
 }
 
-.navn-app, {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.basisknap {
+.navn-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
