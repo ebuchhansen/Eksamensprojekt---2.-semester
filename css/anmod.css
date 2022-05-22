@@ -89,3 +89,13 @@ main {
   margin-left: 0.625rem;
   margin-right: 1.875rem;
 }
+
+.storknap {
+  background-color: #dcbcfd;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 35px 15px 35px;
+  margin: 20px;
+  font: 600 1.50rem "Work Sans", sans-serif;
+  font-weight: normal;
+}

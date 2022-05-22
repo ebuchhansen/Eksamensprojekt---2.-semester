@@ -28,3 +28,11 @@ function closeModal(modal) {
     modal.classList.remove("active")
     overlay.classList.remove("active")
 }
+
+/**/
+
+let colors = ["#4E3B66","#DCBCFD"];
+
+function changeColor(element, color) {
+  element.style.backgroundColor = color;
+}
