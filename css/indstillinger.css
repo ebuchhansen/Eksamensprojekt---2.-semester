@@ -1,15 +1,14 @@
 .liste{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0.8rem;
-  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 h2{
   align-items: center;
   margin-top: 0.5rem;
 }
-
 
 .pilleknap, .blyant, .frempil {
   margin-left: auto;
