@@ -1,6 +1,6 @@
 /*Hover over knapper*/
 
-let colors = ["pink","lightblue"];
+let colors = ["#4E3B66","#DCBCFD"];
 
 function changeColor(element, color) {
   element.style.backgroundColor = color;
