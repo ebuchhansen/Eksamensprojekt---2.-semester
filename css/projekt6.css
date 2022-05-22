@@ -46,6 +46,7 @@ Font familie sat ind
 
 .main {
   grid-area: ma;
+  width: 45rem;
 }
 
 .menu-grid {
@@ -408,7 +409,7 @@ h3 {
   .modal {
     top: 50%;
     left: 53%;
-    transform: translate(-50%, -50%) ;
+    transform: translate(-50%, -50%) scale(0);
   }
 
   .modal.active {
@@ -436,6 +437,11 @@ h3 {
     display: flex;
     flex-direction: column;
     margin-right: 1rem;
+  }
+
+  .main {
+    grid-area: ma;
+    width: 45rem;
   }
 
 }
