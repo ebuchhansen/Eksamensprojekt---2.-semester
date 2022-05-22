@@ -1,3 +1,7 @@
+#kollega-liste {
+    margin-top: 50px;
+}
+
 #kollega-liste > div{
     display: flex;
     background-color: #cbebdb;
