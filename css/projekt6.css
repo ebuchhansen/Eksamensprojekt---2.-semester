@@ -308,7 +308,7 @@ h3 {
   padding-left: 1.563rem;
 }
 
-.column > img {
+.column > a > img {
   height: 4.688rem;
 }
 
