@@ -172,10 +172,22 @@ h3 {
 
 .profile-icon {
   height: 3rem;
+  display: inherit;
 }
 
 .group-icon {
   height: 3rem;
+  display: inherit;
+}
+
+.profile-icon-mobile {
+  height: 3rem;
+  display: none;
+}
+
+.group-icon-mobile {
+  height: 3rem;
+  display: none;
 }
 
 .plus-icon {
@@ -200,7 +212,6 @@ h3 {
   padding: 22px 20px 6px 20px;
   border-radius: 10px;
   margin-right: 5px;
-  background-color: red;
 }
 
 .menubox1 .tooltiptext1 {
@@ -228,7 +239,6 @@ h3 {
   padding: 22px 20px 6px 20px;
   border-radius: 10px;
   margin-right: 5px;
-  background-color: blue;
 }
 
 .menubox2 .tooltiptext2 {
@@ -430,11 +440,21 @@ h3 {
   }
 
   .profile-icon {
-    height: 2rem;
+    display: none;
   }
   
   .group-icon {
-    height: 2rem;
+    display: none;
+  }
+
+  .profile-icon-mobile {
+    display: inherit;
+    text-align: center;
+  }
+  
+  .group-icon-mobile {
+    display: inherit;
+    text-align: center;
   }
 
   .menu {
@@ -443,20 +463,23 @@ h3 {
     margin: 0;
     flex-direction: row;
     width: 100%;
-    
+    background-color: #4E3B66;
   }
 
   .menubox1 {
-    position: none;
-    padding: 15px 20px 12px 20px;
+    position: relative;
+    margin: 0;
+    margin-left: auto;
+    width: 50%;
+    border-radius: 0;
   }
 
   .menubox2 {
-    position: none;
+    position: relative;
     margin: 0;
-    padding: 15px 20px 12px 20px;
-    display: flex;
     margin-right: auto;
+    width: 50%;
+    border-radius: 0;
   }
 
 }
