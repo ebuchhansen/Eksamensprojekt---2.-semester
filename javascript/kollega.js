@@ -17,6 +17,4 @@ for (let i = 0; i < kollegaListe.length; i++) {
     }
 }
 
-
-
 /*document.getElementById("kollega-liste").innerHTML = "<img src=\""+kollegaListe[0][0]+"\">";*/
