@@ -293,6 +293,10 @@ h3 {
   cursor: pointer;
 }
 
+.firma-abonnenter-alle {
+  margin-top: 3.2rem;
+}
+
 .row {
   display: flex;
 }
