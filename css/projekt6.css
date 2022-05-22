@@ -46,6 +46,7 @@ Font familie sat ind
 
 .main {
   grid-area: ma;
+  width: 45rem;
 }
 
 .menu-grid {
@@ -81,6 +82,8 @@ body {
     color: #36244d;
     font-family: "Work Sans";
     font-size: 0.75rem;
+    max-width: 95rem;
+    margin: auto;
 }
 
 .logo {
@@ -171,14 +174,37 @@ h3 {
 
 .profile-icon {
   height: 3rem;
+  display: inherit;
 }
 
 .group-icon {
   height: 3rem;
+  display: inherit;
+}
+
+.profile-icon-mobile {
+  height: 3rem;
+  display: none;
+}
+
+.group-icon-mobile {
+  height: 3rem;
+  display: none;
 }
 
 .filter-icon {
   height: 3rem;
+}
+
+.kryds {
+  max-width: 10px;
+  margin-top: 3px;
+  margin-right: -15px;
+  margin-left: 20px;
+}
+
+.filtericonogknap {
+  margin: 2px;
 }
 
 .plus-icon {
@@ -200,18 +226,13 @@ h3 {
 .menu {
   width: 70px;
   height: 76px;
-  margin-top: 40vh;
+  margin-top: 12.5rem;
   float: right;
 }
 
 .menubox1 {
-  position: relative;
-  display: inline-block;
-
-  padding: 20px;
-  padding-bottom: 6px;
-  padding-top: 22px;
-
+  position: fixed;
+  padding: 22px 20px 6px 20px;
   border-radius: 10px;
   margin-right: 5px;
 }
@@ -236,13 +257,9 @@ h3 {
 }
 
 .menubox2 {
-  position: relative;
-  display: inline-block;
-
-  padding: 20px;
-  padding-bottom: 6px;
-  padding-top: 22px;
-
+  position: fixed;
+  margin-top: 5rem;
+  padding: 22px 20px 6px 20px;
   border-radius: 10px;
   margin-right: 5px;
 }
@@ -295,7 +312,7 @@ h3 {
 .filter-icon {
   height: 3rem;
   float: right;
-  margin-right: 10px;
+  margin-right: 3%;
 }
 
 .filterknap {
@@ -308,7 +325,7 @@ h3 {
 }
 
 .search {
-  width: 650px;
+  width: 96%;;
   border-radius: 10px;
   border-style: solid;
   border-width: thin;
@@ -403,7 +420,7 @@ h3 {
 @media screen and (max-width: 800px) {
   .container {
     display: grid;
-    grid-template-rows: 3rem auto 3rem;
+    grid-template-rows: 3rem auto 5rem;
     grid-template-columns: 0.5fr 4fr 0.5fr;
     grid-template-areas:
             "h h h"
@@ -414,7 +431,7 @@ h3 {
   .modal {
     top: 50%;
     left: 53%;
-    transform: translate(-50%, -50%) ;
+    transform: translate(-50%, -50%) scale(0);
   }
 
   .modal.active {
@@ -423,7 +440,8 @@ h3 {
   }
 
   .main {
-    background-color: yellow;
+    background-color: turquoise;
+    width: auto;
   }
 
   .add-abonnement {
@@ -447,17 +465,48 @@ h3 {
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     float: none;
-    height: 0px;
-    width: 0px;
-    margin-top: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #4E3B66;
+  }
+
+  .menubox1 {
+    position: relative;
+    margin: 0;
+    margin-left: auto;
+    width: 50%;
+    border-radius: 0;
+  }
+
+  .menubox2 {
+    position: relative;
+    margin: 0;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 0;
   }
 
   .tekstfelt {
     width: 30rem;
+  }
 
+  .profile-icon {
+    display: none;
+  }
+
+  .group-icon {
+    display: none;
+  }
+
+  .profile-icon-mobile {
+    display: inherit;
+    text-align: center;
+  }
+
+  .group-icon-mobile {
+    display: inherit;
+    text-align: center;
   }
 
 }
@@ -479,7 +528,6 @@ h3 {
 
   .tekstfelt {
     width: 20rem;
-
   }
 
 }
