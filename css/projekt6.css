@@ -300,7 +300,7 @@ h3 {
 .filter-icon {
   height: 3rem;
   float: right;
-  margin-right: 10px;
+  margin-right: 3%;
 }
 
 .filterknap {
@@ -313,7 +313,7 @@ h3 {
 }
 
 .search {
-  width: 650px;
+  width: 96%;
   border-radius: 10px;
   border-style: solid;
   border-width: thin;
