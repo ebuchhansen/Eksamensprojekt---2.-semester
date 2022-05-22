@@ -57,9 +57,7 @@ text-align: center;
 
 }
 
-<<<<<<< HEAD
 button.login {
-=======
 .brugernavn {
   background-color: #cbebdb;
   border-radius: 0.625rem;
@@ -90,7 +88,6 @@ button.login {
 }
 
 .login {
->>>>>>> f89cc2633b7bd002649e1c6c8c33b3cd88e238b1
   background-color: #dcbcfd;
   border-radius: 0.625rem;
   border: none;
