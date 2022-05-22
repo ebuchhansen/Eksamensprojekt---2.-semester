@@ -1,13 +1,16 @@
 .abonnementbillede {
-  width: 50%;
-  height: auto;
   margin-top: 20px;
 }
 
+.blyant {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
 
 .toppen {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: baseline;
   margin-bottom: 20px;
