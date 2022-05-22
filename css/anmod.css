@@ -26,7 +26,12 @@ main {
   align-items: center;
 }
 
-.hashtagknap {
+#hashtagknapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#hashtagknapper > div {
   background-color: #dcbcfd;
   border-radius: 10px;
   border: none;
