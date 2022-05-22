@@ -26,7 +26,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 20px 0px;
+  margin: 0rem 0rem 1.25rem 0rem;
 }
 
 .hashtag {
@@ -34,7 +34,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 20px 0px;
+  margin: 0rem 0rem 1.25rem 0rem;
 }
 
 #hashtagknapper {
@@ -44,10 +44,10 @@
 
 #hashtagknapper > div {
   background-color: #dcbcfd;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
-  padding: 5px 15px 5px 15px;
-  margin: 10px;
+  padding: 0.313rem 0.938rem 0.313rem 0.938rem;
+  margin: 0.625rem;
 }
 
 .navn-app {

@@ -2,21 +2,34 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 130px;
-  width: 230px;
-  height: 230px;
+  margin-top: 8.125rem;
+  width: 14.375rem;
+  height: 14.375rem;
 }
 /*
 h2.center {
 text-align: center;
 }
+<<<<<<< HEAD
 */
+=======
+
+.loginknap {
+  background-color: #dcbcfd;
+  border-radius: 0.625rem;
+  border: none;
+  padding: 3.125rem 1.563rem 3.125rem 1.563rem;
+  margin-top: 3.75rem;
+
+}
+
+>>>>>>> f89cc2633b7bd002649e1c6c8c33b3cd88e238b1
 #loginknap1{
   background-color: #dcbcfd;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
-  padding: 50px 25px 50px 25px;
-  margin-top: 60px;
+  padding:  3.125rem 1.563rem 3.125rem 1.563rem;
+  margin-top: 3.75rem;
 }
 
 #loginknap1:hover {
@@ -27,10 +40,10 @@ text-align: center;
 
 #loginknap2{
   background-color: #dcbcfd;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
-  padding: 50px 25px 50px 25px;
-  margin-top: 60px;
+  padding: 3.125rem 1.563rem 3.125rem 1.563rem;
+  margin-top: 3.75rem;
 }
 
 #loginknap2:hover {
@@ -44,18 +57,51 @@ text-align: center;
 
 }
 
+<<<<<<< HEAD
 button.login {
-  background-color: #dcbcfd;
-  border-radius: 10px;
+=======
+.brugernavn {
+  background-color: #cbebdb;
+  border-radius: 0.625rem;
   border: none;
-  padding: 15px 25px 15px 25px;
-  margin: 10px;
+  padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+  margin: 0.625rem;
+  margin-top: 3.75rem;
+  max-width: 60vw;
+}
+
+.kodeord {
+  background-color: #cbebdb;
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+  margin: 0.625rem;
+  max-width: 60vw;
+}
+
+.brugernavn:hover {
+  color: #4E3B66;
+  cursor: pointer;
+}
+
+.kodeord:hover {
+  color: #4E3B66;
+  cursor: pointer;
+}
+
+.login {
+>>>>>>> f89cc2633b7bd002649e1c6c8c33b3cd88e238b1
+  background-color: #dcbcfd;
+  border-radius: 0.625rem;
+  border: none;
+  padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+  margin: 0.625rem;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
 }
 
 button.login:hover {
@@ -66,7 +112,7 @@ button.login:hover {
 
 p.opret {
   text-align: center;
-  margin: 8px;
+  margin: 0.5rem;
 }
 
 p.opret:hover {

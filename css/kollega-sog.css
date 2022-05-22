@@ -1,11 +1,15 @@
+#kollega-liste {
+    margin-top: 3.125rem;
+}
+
 #kollega-liste > div{
     display: flex;
     background-color: #cbebdb;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
-    padding: 15px 25px 15px 25px;
-    margin: 10px;
+    padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+    margin: 0.625rem;
     justify-content: space-between;
 }
 
@@ -17,7 +21,7 @@
 @media screen and (max-width: 800px) {
     #kollega-liste > div{
         max-width: 100%;
-        padding: 10px 5px 10px 5px;
+        padding: 0.625rem 0.313rem 0.625rem 0.313rem;
         flex-direction: column;
     }
 
@@ -26,8 +30,7 @@
         margin: 0 2rem 0 2rem;
     }
   }
-  
+
   @media screen and (max-width: 600px){
-    
+
   }
-  
