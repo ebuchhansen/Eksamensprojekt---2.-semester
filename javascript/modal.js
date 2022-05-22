@@ -29,7 +29,7 @@ function closeModal(modal) {
     overlay.classList.remove("active")
 }
 
-/**/
+/*hover tekst i menu*/
 
 let colors = ["#4E3B66","#DCBCFD"];
 
