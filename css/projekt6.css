@@ -79,7 +79,7 @@ hr{
 body {
     background-color: #fcfaf0;
     color: #36244d;
-    font-family: sans-serif;
+    font-family: "Work Sans";
     font-size: 0.75rem;
 }
 
@@ -123,6 +123,8 @@ h3 {
   border: none;
   padding: 15px 25px 15px 25px;
   margin: 10px;
+  font: 600 1.25rem "Work Sans";
+  font-weight: normal;
 }
 
 .pilleknap {
