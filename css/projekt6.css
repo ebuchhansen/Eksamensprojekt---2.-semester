@@ -425,17 +425,28 @@ h3 {
     margin: 1rem 0 1rem 0.5rem;
     width: 100%;
   }
-  
+
   .add-new-abonnement {
     padding: 0;
     margin: 0 0 0 0.5rem;
     width: 100%;
   }
-  
+
   .modal-knapper {
     display: flex;
     flex-direction: column;
     margin-right: 1rem;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    height: 0px;
+    width: 0px;
+    margin-top: 0;
   }
 
 }
@@ -453,6 +464,6 @@ h3 {
 
   .main {
     background-color: green;
-  } 
+  }
 
 }
