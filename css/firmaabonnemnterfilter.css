@@ -4,10 +4,28 @@
     border: none;
     padding: 5px 25px 5px 25px;
     margin: 10px;
+    float: auto;
 }
 
-.filter-icon {
+.filter-icon1 {
     height: 3rem;
-    margin-left: 625px;
+    float: right;
     margin-right: 10px;
+  }
+
+  .row {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-left: 25px;
+  }
+  
+  .row:after {
+    display: table;
+    clear: both;
   }
