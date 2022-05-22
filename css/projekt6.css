@@ -304,14 +304,14 @@ h3 {
 .modal {
   position: fixed;
   border-radius: 10px;
-  background-color: #FCFAF0;
-  width: auto;
-  max-width: 80%;
+  background-color: red;
+  max-width: 50%;
   z-index: 10;
   transition: 200ms ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
+  /*#FCFAF0*/
 }
 
 .modal.active {
@@ -334,8 +334,36 @@ h3 {
 }
 
 .modal-tekst {
-  padding: 0.8rem 1.2rem 1.5rem 1rem;
+  padding: 0.8rem 1.2rem 1rem 1rem;
 }
+
+.add-abonnement {
+  border: none;
+  background: #DCBCFD;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: 0.8rem;
+  width: 40%;
+  height: 6rem;
+  margin: 3rem -1rem 3rem 0;
+}
+
+.add-new-abonnement {
+  border: none;
+  background: #DCBCFD;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: 0.8rem;
+  float: right;
+  width: 40%;
+  height: 6rem;
+  margin: 3rem 0 3rem 0;
+}
+
+.modal-knapper {
+  padding-bottom: 1rem;
+}
+
 
 #overlay {
   position: fixed;
@@ -366,10 +394,9 @@ h3 {
   }
 
   .modal {
-    max-width: 65%;
     top: 50%;
     left: 53%;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) ;
   }
 
   .modal.active {
@@ -381,10 +408,26 @@ h3 {
     background-color: yellow;
   }
 
+  .add-abonnement {
+    padding: 0;
+    margin: 1rem 0 1rem 0.5rem;
+    width: 100%;
+  }
+  
+  .add-new-abonnement {
+    padding: 0;
+    margin: 0 0 0 0.5rem;
+    width: 100%;
+  }
+  
+  .modal-knapper {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (max-width: 600px){
-
   .modal-body {
     padding: 20px 10px 5px 25px;
     display: flex;
@@ -397,6 +440,6 @@ h3 {
 
   .main {
     background-color: green;
-  }
+  } 
 
 }
