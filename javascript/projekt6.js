@@ -27,3 +27,4 @@ function changeColor(element, color) {
 
 // Sæt ind i html
 // onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])"
+//<script type="text/javascript" src="javascript/modal.js" defer></script>
