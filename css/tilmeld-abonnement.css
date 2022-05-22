@@ -3,11 +3,10 @@
 
 
 .adobe-logo {
+  height: 30%;
+  width: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .textsfelt{
