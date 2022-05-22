@@ -92,10 +92,10 @@ main {
 
 .storknap {
   background-color: #dcbcfd;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
-  padding: 15px 35px 15px 35px;
-  margin: 20px;
+  padding: 0.938rem 2.188rem 0.938rem 2.188rem;
+  margin: 1.25rem;
   font: 600 1.50rem "Work Sans", sans-serif;
   font-weight: normal;
 }
