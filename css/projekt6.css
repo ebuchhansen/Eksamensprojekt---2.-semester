@@ -441,6 +441,10 @@ h3 {
   margin: 1.25rem;
 }
 
+.billedeogtekst > img {
+  border-radius: 50%;
+}
+
 .teksten {
   display: flex;
   flex-direction: column;
