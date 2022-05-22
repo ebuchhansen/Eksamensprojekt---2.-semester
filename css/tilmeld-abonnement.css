@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
 
+.adobe-logo {
+  height: 30%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
 .textsfelt{
   background-color: #CBEBDB;
   color: #36244D;
