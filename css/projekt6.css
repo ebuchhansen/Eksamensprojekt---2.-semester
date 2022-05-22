@@ -284,8 +284,17 @@ h3 {
 
 .filter-icon {
   height: 3rem;
-  margin-left: 625px;
+  float: right;
   margin-right: 10px;
+}
+
+.filterknap {
+  background-color: #dcbcfd;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 25px 5px 25px;
+  margin: 10px;
+  float: auto;
 }
 
 .search {
