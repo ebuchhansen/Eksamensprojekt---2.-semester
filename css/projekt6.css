@@ -52,8 +52,8 @@ Font familie sat ind
   width: 45rem;
 }
 
-.menu-grid {
-  grid-area: me;
+.nav {
+  grid-area: na;
 }
 
 .footer {
@@ -65,7 +65,7 @@ Font familie sat ind
   grid-template: 5rem auto 5rem / repeat(3, 1fr);
   grid-template-areas:
           "h h h"
-          "a ma me"
+          "a ma na"
           "f f f";
 }
 
@@ -463,7 +463,7 @@ h3 {
     grid-template-areas:
             "h h h"
             "a ma f"
-            "me me me";
+            "na na na";
   }
 
   .modal {
