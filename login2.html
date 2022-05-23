@@ -23,9 +23,11 @@
         <img src="img/logo-img1.png" alt="Ordo logo" class="logo-login">
         <h1 class="logo-tekst" id="ordo"></h1>
         <h2 class="center" id="logintitle"></h2>
-        <div class="tekstfelt">Brugernavn...</div>
-        <div class="tekstfelt">Kodeord...</div>
-        <button onclick="window.location.href='egen-side.html'" class="login">Login</button>
+        <form>
+          <input type="text" class="tekstfelt" id="username" placeholder="Brugernavn...">
+          <input type="password" class="tekstfelt"id="password" placeholder="Kodeord...">
+          <button type="button" class="login"onclick="getInfo()" onclick="">Login</button>
+        </form>
         <p id="opret"></p>
         <p id="opret2"></p>
         <div class="space"></div>
