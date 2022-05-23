@@ -39,14 +39,12 @@ Font familie sat ind
 /* Grid */
 .header {
   grid-area: h;
-  background-color: orange;
   display: flex;
   align-items: center;
 }
 
 .aside {
   grid-area: a;
-  background-color: purple;
 }
 
 .main {
@@ -56,12 +54,10 @@ Font familie sat ind
 
 .menu-grid {
   grid-area: me;
-  background-color: yellow;
 }
 
 .footer {
   grid-area: f;
-  background-color: red;
 }
 
 .container {
@@ -98,7 +94,7 @@ body {
 
 .logo-img {
   height: 3rem;
-  margin: 0 0.3rem 0 0.5rem;
+  margin: 0 0.3rem 0 1rem;
 }
 
 /* font */
