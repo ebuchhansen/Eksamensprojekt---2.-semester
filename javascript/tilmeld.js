@@ -1,7 +1,7 @@
 let hashTags = [
-  ["<div>"+"#Hashtag"+"</div>"],
-  ["<div>"+"#Hashtag"+"</div>"],
-  ["<div>"+"#Hashtag"+"</div>"],
+  ["<div>"+"#Projetk 10"+"</div>"],
+  ["<div>"+"#Projekt 4"+"</div>"],
+  ["<div>"+"#Designere"+"</div>"],
 ];
 
 for (var i = 0; i < hashTags.length; i++) {

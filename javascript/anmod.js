@@ -126,9 +126,9 @@ function myOnblur5() {
 /*Hashtags*/
 
 let hashTags = [
-  ["<div>"+"#Hashtag"+"</div>"],
-  ["<div>"+"#Hashtag"+"</div>"],
-  ["<div>"+"#Hashtag"+"</div>"],
+  ["<div>"+"#Projekt 7"+"</div>"],
+  ["<div>"+"#Designere"+"</div>"],
+  ["<div>"+"#Projektledere"+"</div>"],
 ];
 
 for (var i = 0; i < hashTags.length; i++) {
