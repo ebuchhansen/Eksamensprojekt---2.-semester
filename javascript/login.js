@@ -6,32 +6,31 @@ if (number > 0){
 else {
     console.log("elseWorking")
 }
-//console log virker
 
-let medarbejder = document.getElementById("medarbejder");
-document.getElementById("medarbejder").innerHTML = "Medarbejder"
-// medarbejder virker
+let ordo = document.getElementById("ordo");
+document.getElementById("ordo").innerHTML = "Ordo"
+
 
 const kodeord = {
-    firstName: "Kode",
-    lastName: "ord...",
+    firstName: "Glemt",
+    lastName: " kodeord",
     fullName: function() {
       return this.firstName + this.lastName;
     }
 };
-document.getElementById("kodeord").innerHTML = kodeord.fullName();
+document.getElementById("opret").innerHTML = kodeord.fullName();
 
 
-const brugernavn = ["Bruger", "navn..."];
+const bruger = ["Opret", " bruger"];
 
-document.getElementById("brugernavn").innerHTML =
-brugernavn[0] + brugernavn[1];
+document.getElementById("opret2").innerHTML =
+bruger[0] + bruger[1];
 
 
 let text = "";
 let i = 0;
 while (i < 1) {
-    text += "<p>Adminstrator</p>";
+    text += "<h2>Login</h2>";
     i++;
 }
-document.getElementById("administrator").innerHTML = text;
+document.getElementById("logintitle").innerHTML = text;
