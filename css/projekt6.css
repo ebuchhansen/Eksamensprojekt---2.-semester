@@ -527,6 +527,16 @@ h3 {
     border-radius: 0;
   }
 
+  .menubox1 .tooltiptext1 {
+    visibility: hidden;
+    display: none;
+  }
+
+  .menubox1:hover .tooltiptext1{
+    visibility:hidden;
+    opacity: 0;
+  }
+
   .tekstfelt {
     width: 30rem;
   }
