@@ -42,3 +42,111 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+
+/*farver styling*/
+.flexbox-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overskrift {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.farver {
+  margin-top: 5rem;
+  width: 22rem;
+  text-align: center;
+}
+
+.element {
+  margin: 3rem 0 2rem 2rem;
+}
+
+.element-navn {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+
+.farver > p {
+  margin: 0 4rem 7.6rem 2rem;
+}
+
+.floral-white {
+  background-color: #FCFAF0;
+  height: 4rem;
+  border-style: solid;
+  border-color: #36244D;
+  border-width: thin;
+}
+
+.mauve {
+  background-color: #DCBCFD;
+  height: 4rem;
+  border-style: solid;
+  border-color: #36244D;
+  border-width: thin;
+}
+
+.russian-violet {
+  background-color: #36244D;
+  height: 4rem;
+  border-style: solid;
+  border-color: #36244D;
+  border-width: thin;
+}
+
+.english-violet {
+  background-color: #4E3B66;
+  height: 4rem;
+  border-style: solid;
+  border-color: #36244D;
+  border-width: thin;
+}
+
+.columbia-blue {
+  background-color: #CBEBDB;
+  height: 4rem;
+  border-style: solid;
+  border-color: #36244D;
+  border-width: thin;
+}
+
+.champagne-pink {
+  background-color: #F2D7CA;
+  height: 4rem;
+  border-style: solid;
+  border-color: #36244D;
+  border-width: thin;
+}
+
+/*beskrivelse styling*/
+
+.beskrivelse-alle {
+  width: 40rem;
+  margin-top: 4rem;
+}
+
+.beskrivelse {
+  margin-bottom: 4.2rem;
+}
+
+/*kode*/
+.kode-alle {
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+}
+
+.kode {
+  margin-bottom: 4.2rem;
+  height: 5rem;
+}
+
+.textarea {
+  width: 20rem;
+  height: 4rem;
+}

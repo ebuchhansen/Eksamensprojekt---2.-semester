@@ -16,9 +16,10 @@ window.onclick = function(event) {
 }
 
 
- let farveArray = ["#FCFAF0", "<br>", "#DCBCFD", "<br>", "#36244D", "<br>", "#4E3B66", "<br>", "#CBEBDB", "<br>", "#F2D7CA"];
- function changeCode() {
-   let farverWow = document.getElementById('farve-array');
-   for (i = 0; i < farveArray.length; i++)
-   farverWow.innerHTML += farveArray[i];
+ let farveArray = ["#FCFAF0", "#DCBCFD", "#36244D", "#4E3B66", "#CBEBDB", "#F2D7CA"];
+
+ for (let i = 0; i < farveArray.length; i++) {
+  document.getElementById("farve-array").innerHTML += "<p>" + farveArray[i] + "</p>";
  }
+
+
