@@ -8,14 +8,21 @@
     max-width: 100%;
     border-radius: 0.625rem;
     border: none;
-    padding: 0.938rem 1.563rem 0.938rem 1.563rem;
+    padding: 3rem 0 0.938rem 0;
     margin: 0.625rem;
     justify-content: space-between;
 }
 
 #kollega-liste > div > p {
-    display: flex;
     margin: 0 2rem 0 2rem;
+}
+
+.kollega-billeder {
+    height: 3rem;
+}
+
+#kollega-liste > img {
+    height: 3rem;
 }
 
 @media screen and (max-width: 800px) {
