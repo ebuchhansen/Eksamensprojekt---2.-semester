@@ -1,14 +1,14 @@
-let number = 1
+let number = 1;
 
 if (number > 0){
-    console.log("ifWorking")
+    console.log("ifWorking");
 }
 else {
-    console.log("elseWorking")
+    console.log("elseWorking");
 }
 
 let ordo = document.getElementById("ordo");
-document.getElementById("ordo").innerHTML = "Ordo"
+document.getElementById("ordo").innerHTML = "Ordo";
 
 
 const kodeord = {
