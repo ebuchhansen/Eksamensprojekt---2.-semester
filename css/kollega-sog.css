@@ -3,23 +3,16 @@
 }
 
 #kollega-liste > div{
-    display: flex;
     background-color: #cbebdb;
     max-width: 100%;
     border-radius: 0.625rem;
     border: none;
     padding: 3rem 0 0.938rem 0;
     margin: 0.625rem;
-    justify-content: space-between;
 }
 
 #kollega-liste > div > p {
     margin: 0 2rem 0 2rem;
-}
-
-.kollega-billeder {
-    height: 3rem;
-    border-radius: 50%;
 }
 
 #kollega-liste > img {

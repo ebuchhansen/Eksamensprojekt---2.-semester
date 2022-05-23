@@ -64,6 +64,7 @@
 
 .element {
   margin: 3rem 0 2rem 2rem;
+  text-align: center;
 }
 
 .element-navn {
@@ -71,6 +72,9 @@
   text-align: center;
 }
 
+.elementer-alle {
+  max-width: 33%;
+}
 
 .farver > p {
   margin: 0 4rem 7.6rem 2rem;
@@ -132,7 +136,7 @@
 }
 
 .beskrivelse {
-  margin-bottom: 4.2rem;
+  margin-bottom: 3.2rem;
 }
 
 /*kode*/

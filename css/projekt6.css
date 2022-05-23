@@ -149,7 +149,7 @@ a {
 
 .tekstfelt {
   background-color: #cbebdb;
-  width: 40.625rem;
+  width: 100%;
   border-radius: 0.625rem;
   border: none;
   padding: 0.938rem 1.563rem 0.938rem 1.563rem;
@@ -566,10 +566,6 @@ a {
     opacity: 0;
   }
 
-  .tekstfelt {
-    width: 30rem;
-  }
-
   .profile-icon {
     display: none;
   }
@@ -600,9 +596,4 @@ a {
     text-align: center;
     line-height: 1.3rem;
   }
-
-  .tekstfelt {
-    width: 20rem;
-  }
-
 }
