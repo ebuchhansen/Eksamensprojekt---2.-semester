@@ -115,6 +115,11 @@ h3 {
   font: 650 2rem "Work Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #36244d;
+}
+
 /* ikoner */
 .basisknap {
   background-color: #dcbcfd;

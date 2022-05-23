@@ -19,6 +19,7 @@
 
 .kollega-billeder {
     height: 3rem;
+    border-radius: 50%;
 }
 
 #kollega-liste > img {

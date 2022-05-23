@@ -1,12 +1,12 @@
 let kollegaListe = [
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpeg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
 ];
 
 // loop the outer array
