@@ -116,23 +116,3 @@ p.opret:hover {
   color: #4E3B66;
   cursor: pointer;
 }
-
-  #opret {
-  text-align: center;
-  margin: 0.5rem;
-}
-
-#opret:hover {
-  color: #4E3B66;
-  cursor: pointer;
-}
-
-#opret2 {
-  text-align: center;
-  margin: 0.5rem;
-}
-
-#opret2:hover {
-  color: #4E3B66;
-  cursor: pointer;
-}
