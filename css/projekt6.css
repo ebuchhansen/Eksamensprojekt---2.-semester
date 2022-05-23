@@ -519,6 +519,14 @@ h3 {
     background-color: #4E3B66;
   }
 
+  .menubox1:hover {
+    background-color: #36244D;
+  }
+  
+  .menubox2:hover {
+    background-color: #36244D;
+  }
+
   .menu-desktop {
     display: none;
   }
