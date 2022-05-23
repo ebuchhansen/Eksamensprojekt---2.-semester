@@ -96,3 +96,7 @@ main {
   font: 600 1.50rem "Work Sans", sans-serif;
   font-weight: normal;
 }
+
+.imgknap {
+  height: 2.2rem;
+}
