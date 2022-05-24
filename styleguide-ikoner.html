@@ -3,26 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/projekt6.css">
     <link rel="stylesheet" href="css/styleguide.css">
     <script type="text/javascript" src="javascript/styleguide.js">
     </script>
     <title>Styleguide til projekt 6</title>
   </head>
   <body onload="hoverText()">
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="styleguide-farver.html">Farver</a>
-        <a href="styleguide-form-ikoner.html">Former og ikoner</a>
-        <a href="styleguide-typografi.html">Typografi</a>
-        <a href="#">Alt andet hehe</a>
+    <div class="wrapper">
+      <div class="top">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="styleguide-farver.html">Farver</a>
+            <a href="styleguide-form-ikoner.html">Former og ikoner</a>
+            <a href="styleguide-typografi.html">Typografi</a>
+            <a href="#">Alt andet hehe</a>
+          </div>
+        </div>
+        <h1 class="overskrift">Former og ikoner</h1>
       </div>
-    </div>
-    <h1 class="overskrift">Former og ikoner</h1>
-    <div class="flexbox-style">
+
       <div class="elementer-alle">
-    
+
         <div class="element">
           <div class="element-navn">
             <p>Tilbagepil</p>
@@ -52,7 +54,7 @@
 
         <div class="element">
           <div class="element-navn">
-            <p>Indstillinger ikon</p>
+            <p>Indstillinger</p>
           </div>
           <div class="indstillinger-ikon">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAA6NJREFUaEPtWUFS4lAQfR0ysx3nBINlqJrd6MLoTtxOGcsb6A2MJwBOIN5Ab0ARa7biTuNicDdVxhJPMLDFQE99A4wkIf8nwoxYsOV3/37dv7tfdwhz/qM5tx8LAP87glOLgLli7YGoBPBqIihGC8CRe+/UpgF+mgAeQMirGUVN16uvqZ1NPjU9AIbFaQxyPWcqd09FiTDcXABIE7+/Z5UisGnsFPvAlqbrZ1e/aiIJR7/V/N7SR90/BKiczgQud339pNmqtV/KbX7dy/d9f18DLq+884ZMpxRAYDxdDBUxUH3ycxVxsWnslNIbPmZSG+Cq651XhCM+6L0SAfbwhAbeloGQAjBXrLjq0gaoJS2ZMveN/qcmwKKCLY2JMFruvbOcpCYRgGnslgEuKdsxg4MEHF17TnWS6okAgrfde4h4ZQZGSlS2u35uOZwrQ5mJAMyCdQrG/r+3N+ZGwpl75xzE2RILYL3wfZU49/NNGD8wgqm3dnP3oxm2KR6AYV0QUMwI4JGAap96jeGFwiEa54ocVJgvWfQy0LjxnG0pgHDZTHOZLOGErg3Dshk4TqM3qaxGIpC18kwKcZyh2Z8oVVyvPtYwIwAC5VoDoE+qXlLxfFhXlkjENbbYHBg8I1F7vymAeHQ9R5FGj2szDUvQEpWcuNXAdlxXTmxk6wXrgJirSdHI4v0hDHkUuMNE9s2dc5q6kQ0FTMP6ndTM0rz9sBEKudB2PedzZiohBGU8/7WDyWv1y8mcZFCZAwA7gnlOrEizfULccb3zcYYaek/JbHRldx8kkjhEc18omW0Sow0m272vn6VK4qCMasdKfF+Bs0+6fMKsEcfmmhr6R0plNAuVyBIFeQmN4Ggz9bbDhO79UYksERgNF0T29V39JKlubxR2D/m5Oab/KVMJ07DENmAr/RUAGC3SqNqHfzlGp6FvcZ9t9e1d5PZL13MiFP99DjTPHXieR0oBYLCwaqWh1ZmenFSIO11fz6ce6gMeNMdrlRdsNIazcydYbCnNC1IfA7gNFlsRyiKdNaRkLrJaZD556ullEdKgGXE5+zPjDoHKYnH1vFrM+WUiOkyagcPekAIQAgNqUdR07TR+udu302/wqNL1tWr8crd/wOTX4tYomQCovAEZrw/reC0NHzVPFeNUziwAqHgpjqdmlIuIpdgwCNlb13OSv2YqGqaUxCq6gs+sEEsn2SrmEQz7zX1mVQE5izNTi8AsjFPRuQCg4qVZnvkDksXDQEJMhWkAAAAASUVORK5CYII="/>
@@ -65,7 +67,6 @@
           </div>
           <div class="kryds">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAZVJREFUaEPtmM1Nw0AQhWdFAUkJviBxzAUpx1AAUkqgI+ggLSAhpYjkkjtIQAfJPckiC1s4lp3dNz8Bi8l5/fZ982Z37AQa+C8M3D85wG8n6Al4AsIKeAsJCyh+3BMQl1Ao8L8TmBTz8ebjeSspolSDncDt9f1DiPQYw+Fu/brccCA0NFgA1caLyvSWA6GhUe4PA0xv5sVxf3hvVRyCaJmvpT5Xby8FmiQMUG7QYyALovvZuIvhOOO0IguAC6FtntVCzYiRJCzMiwFyk7AyrwKQgiC6moRI9Y1VBcjv+fYhZ5+BtlBfOxHR+HStnnm1BGqDPRAN/7rm1QHOtBMR6Zu/MABlzYmLDLK+TdItpA9hfIjjjiiMJK8dqURUAM7d893XqF4SYoCcIYVM7FTFVedAjvnEFSs+2OwEEPOWECwAjnkrCBig+4MGG1J/7IMGM9+dBE9DNIm/qxifuF9SP68dMg24hZrXmPQvkVJLqiECQO9si/UOYFFVRNMTQKplsdYTsKgqoukJINWyWOsJWFQV0Rx8Al+d+m1AtPPRmgAAAABJRU5ErkJggg=="/>
-              </div>
           </div>
         </div>
 
@@ -100,69 +101,99 @@
           <div class="element-navn">
             <p>Plus ikon</p>
           </div>
-          <div class="plus-icon">
-            <img alt="Plus ikon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAN9JREFUSEvtljESwiAQRfcnB9BDxD6Njp2xdfQuyUn0Ljq2audoY28OoQcg64AWFmAMGtAZaBf2w2P/AsjTgCddCsLOyP8X6n5vkhLHc4UHojie16emqKxOPEymWUXYSLGIeLwvV9sgXEcgoK4jpOKtFtfDMh3dTiIgZeaFchOQV8x6O0FcTVYz3vEgmUmLjN5CYJ60O5TLTBf+PWGJOuaoq9stE1ImUp0LRAVIj1qgujRG/Qpxq8UVhJ8JBNTOnkVpNXCsOhdD5M4+Ah92s/vH5RtJbHIEYRtqVmu8ob4BT3mJHwevqi8AAAAASUVORK5CYII="/>
+          <div class="plus-icon-style">
+            <div class="plus-icon">
+              <img alt="Plus ikon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAN9JREFUSEvtljESwiAQRfcnB9BDxD6Njp2xdfQuyUn0Ljq2audoY28OoQcg64AWFmAMGtAZaBf2w2P/AsjTgCddCsLOyP8X6n5vkhLHc4UHojie16emqKxOPEymWUXYSLGIeLwvV9sgXEcgoK4jpOKtFtfDMh3dTiIgZeaFchOQV8x6O0FcTVYz3vEgmUmLjN5CYJ60O5TLTBf+PWGJOuaoq9stE1ImUp0LRAVIj1qgujRG/Qpxq8UVhJ8JBNTOnkVpNXCsOhdD5M4+Ah92s/vH5RtJbHIEYRtqVmu8ob4BT3mJHwevqi8AAAAASUVORK5CYII="/>
+            </div>
           </div>
         </div>
-  
+
       </div>
 
       <div class="beskrivelse-alle">
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
-          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
-          et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
-          Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
-          malesuada fames ac turpis egestas.
-        </div>
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
-          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
-          et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
-          Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
-          malesuada fames ac turpis egestas.
-        </div>
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
-          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
-          et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
-          Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
-          malesuada fames ac turpis egestas.
-        </div>
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
-          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
-          et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
-          Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
-          malesuada fames ac turpis egestas.
-        </div>
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
-          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
-          et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
-          Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
-          malesuada fames ac turpis egestas.
-        </div>
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
-          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
-          et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
-          Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
-          malesuada fames ac turpis egestas.
-        </div>
-        <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
             habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
             et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
             Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
             malesuada fames ac turpis egestas.
-          </div>
-          <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
             habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
             et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
             Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
             malesuada fames ac turpis egestas.
-          </div>
-          <div class="beskrivelse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
             habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
             et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
             Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
             malesuada fames ac turpis egestas.
-          </div>
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
+            et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
+            Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
+            malesuada fames ac turpis egestas.
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
+            et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
+            Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
+            malesuada fames ac turpis egestas.
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
+            et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
+            Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
+            malesuada fames ac turpis egestas.
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
+            et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
+            Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
+            malesuada fames ac turpis egestas.
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
+            et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
+            Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
+            malesuada fames ac turpis egestas.
+          </p> 
+        </div>
+        <div class="beskrivelse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis libero a eros vehicula varius. Pellentesque 
+            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras velit quam, ultricies ac pulvinar vel, consectetur 
+            et elit. Fusce semper eros nulla, at tincidunt quam consequat vitae. Vestibulum quis arcu ut nisi aliquet volutpat vel eget arcu. 
+            Suspendisse lobortis augue quis nisi vehicula, ac mollis nisi imperdiet. Pellentesque habitant morbi tristique senectus et netus et 
+            malesuada fames ac turpis egestas.
+          </p> 
+        </div>
       </div>
+
       <div class="kode-alle">
         <div class="kode">
           <textarea class="textarea">
@@ -193,24 +224,32 @@
           <textarea class="textarea">
             Lorem ipsum dolor sit amet
           </textarea>
-        </div> 
+        </div>
         <div class="kode">
-            <textarea class="textarea">
-              Lorem ipsum dolor sit amet
-            </textarea>
-          </div>
-          <div class="kode">
-            <textarea class="textarea">
-              Lorem ipsum dolor sit amet
-            </textarea>
-          </div>
-          <div class="kode">
-            <textarea class="textarea">
-              Lorem ipsum dolor sit amet
-            </textarea>
-          </div>   
-     
+          <textarea class="textarea">
+            Lorem ipsum dolor sit amet
+          </textarea>
+        </div>
+        <div class="kode">
+          <textarea class="textarea">
+            Lorem ipsum dolor sit amet
+          </textarea>
+        </div>
+        <div class="kode">
+          <textarea class="textarea">
+            Lorem ipsum dolor sit amet
+          </textarea>
+        </div>
       </div>
-    </div>
+  </div>
+      
+
+
+
+
+
+      <div class="header">
+              
+      </div>
   </body>
 </html>
