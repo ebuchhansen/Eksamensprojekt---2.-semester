@@ -55,7 +55,7 @@ body {
   max-width: 96rem;
   margin: auto;
   font-family: "Work Sans";
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   max-width: 96rem;
 }
 
@@ -98,13 +98,11 @@ h3 {
   grid-column: span 1;
   width: 35rem;
   background-color: yellow;
-  text-align: center;
 }
 
 .kode-alle {
   grid-column: span 1;
   background-color: red;
-  text-align: center;
   }
 
 .overskrift {
@@ -335,6 +333,6 @@ h3 {
 
 .pre {
   margin: auto;
-  word-wrap: break-word;
   width: 500px;
+  overflow-y: hidden;
 }
