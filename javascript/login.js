@@ -27,7 +27,7 @@ function getInfo() {
 		if(username == objPeople[i].username && password == objPeople[i].password) {
 			console.log(username + " er logget ind");
 
-            location.href = "https://www.w3schools.com";
+            location.href = "https://cillecamille.dk/projekt6/egen-side.html";
 
 			return;
 		}
