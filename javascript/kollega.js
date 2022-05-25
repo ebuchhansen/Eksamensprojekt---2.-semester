@@ -1,12 +1,12 @@
 let kollegaListe = [
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
-    ["<div>", "img/kollega-img.jpg", "<p>", "Palle Henriksen", "</p>", "<p>", "Programmør", "</p>", "</div>"],
+  ["<div class='kollegaer-liste'> <img src='img/palle-img.jpg'><p> Palle Henriksen</p><p>Programmør</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
+  ["<div class='kollegaer-liste'> <img src='img/kollega-img.jpg'><p> Sybil Crawley</p><p>Projekt-manager</p></div>"],
 ];
 
 // loop the outer array
