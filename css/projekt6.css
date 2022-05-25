@@ -444,7 +444,7 @@ a {
 @media screen and (max-width: 800px) {
   .container {
     display: grid;
-    grid-template-rows: 3rem auto 5rem;
+    grid-template-rows: 5rem auto 5rem;
     grid-template-columns: 0.5fr 4fr 0.5fr;
     grid-template-areas:
             "h h h"
