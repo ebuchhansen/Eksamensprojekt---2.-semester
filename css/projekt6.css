@@ -532,7 +532,7 @@ a {
   }
 
   .menubox1:hover .tooltiptext1{
-    visibility:hidden;
+    visibility: hidden;
     opacity: 0;
   }
 
